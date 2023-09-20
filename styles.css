@@ -19,6 +19,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    width: 100%;
+    height: 100%;
 }
 html {
     margin: 0;
@@ -78,4 +80,24 @@ html {
 }
 #blue {
     background-color: #313785;
+}
+.slogan {
+    margin-top: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 5%;
+    text-decoration: underline;
+}
+#bottom {
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.mainlogo {
+    width: 50%;
+    height: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
