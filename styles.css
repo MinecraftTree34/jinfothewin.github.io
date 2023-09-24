@@ -109,8 +109,10 @@ html {
     text-decoration: underline;
 }
 .jtc {
+    display: block;
     width: auto;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     border: 0;
 }
