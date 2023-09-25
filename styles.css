@@ -1,3 +1,5 @@
+
+@media (max-width: 1000px) { 
 .menu {
     margin: 0;
     padding: 0;
@@ -40,7 +42,6 @@ html {
     width: auto;
     list-style-type: none;
 }
-
 .links {
     display: inline-block;
     text-decoration: none;
@@ -54,12 +55,10 @@ html {
 #home {
     width: 140.84px;
 }
-
 #whoami {
     width: 140.84px;
 
 }
-
 .watermark {
     display: block;
     float: right;
@@ -132,3 +131,135 @@ html {
     padding: 0;
     border: 0;
 }
+    }
+    .menu {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 15%;
+        width: auto;
+        background-color: black;
+    }
+    .menubuttons {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        height: 15%;
+        width: auto;
+        text-align: center;
+        background-image: radial-gradient(black, #3533ce);
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        height: 100%;
+    }
+    html {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background-color: #eeeeee;
+    }
+    .buttons {
+        display: inline-block;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 100px;
+        width: auto;
+        list-style-type: none;
+    }
+    .links {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        height: auto;
+        width: auto;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    #home {
+        width: 140.84px;
+    }
+    #whoami {
+        width: 140.84px;
+    
+    }
+    .watermark {
+        display: block;
+        float: right;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 5px;
+    }
+    .cards {
+        display: block;
+        margin: 0;
+        width:100%;
+    }
+    .dividers {
+        width: 100%;
+        height: 15px;
+        margin: 0;
+        background-color: black;
+    }
+    #blue {
+        background-color: #313785;
+    }
+    .slogan {
+        margin-top: 100%;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding: 5%;
+        text-decoration: underline;
+    }
+    #bottom {
+        margin: 0;
+        height: 10%;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+    .mainlogo {
+        width: 50%;
+        height: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .top {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 64px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .jtc {
+        display: block;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+    }
+    .ftw {
+        display: block;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+    }
+    .ajinda {
+        display: block;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+    }
