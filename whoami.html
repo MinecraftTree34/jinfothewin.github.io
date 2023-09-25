@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jin For The Win! - Vote Max Jin for President - About MaxS</title>
+        <title>Jin For The Win! - Vote Max Jin for President - About Max</title>
+        <link rel="icon" type="image/x-icon" href="max.jpg">
         <link rel="icon" type="image/x-icon" href="us.png">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,9 +20,14 @@
         </div>
         <h1 class="top">About Max</h1>
         <div class="dividers"></div>
-        <img src="aboutmax.png" class="cards" style="margin-top: 20px;">
-        <img src="aboutmax2.png" class="cards" style="margin-top: 15px; margin-bottom: 30px;">
-        <img src="maxlogo.png" class="mainlogo">
+        <picture>
+            <source media="(min-width: 1000px)" srcset="aboutmaxpc.png" class="cards">
+            <img src="aboutmax.png" class="cards" style="margin-top: 20px;">
+        </picture>
+        <picture>
+            <source media="(min-width: 1000px)" srcset="aboutmax2pc.png" class="cards">
+            <img src="aboutmax2.png" class="cards" style="margin-top: 15px; margin-bottom: 30px;">
+        </picture>
         <div class="menubuttons" id="bottom">
             <h1 class="slogan" style="margin: 0;">"JIN FOR THE WIN"</h1>
         </div>
